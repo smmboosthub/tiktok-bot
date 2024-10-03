@@ -41,7 +41,7 @@ class Bot:
             print("[~] Loading driver, please wait...")
 
             options = webdriver.FirefoxOptions()
-            options.binary_location = "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+            options.binary_location = "C:\\Program Files\\Mozilla Firefox"
             options.add_argument("--width=800")
             options.add_argument("--height=700")
 
